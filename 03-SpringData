@@ -1,0 +1,6 @@
+- Build an application with the following dependencies: Web, JPA, H2, Postgres
+- Expose some data to read and modify through REST Calls
+- Run the application. Which DB is selected by default? Without any change to the configuration
+- Configure the application to use Postgres
+- Run multiple instances of the application by using H2 configuration first and Postgres later
+- What is the difference that you see?
