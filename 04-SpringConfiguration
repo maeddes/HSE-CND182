@@ -1,0 +1,13 @@
+- Apply the sample code from: https://gitpitch.com/maeddes/gitpitch-spring-configuration
+- Enable all actuator endpoints
+- Enable only distinct actuator endpoints (env, configprops, health, info)
+- Read and expose properties read from the application.properties file using:
+  - @Value
+  - @ConfigurationProperties
+- Implement an own property file and reference it
+- Observe the application behaviour when changing the properties using actuator
+- Override an application property using -D in the maven call
+- Implement 2 different configurations using profiles by using
+  - different files with different names
+  - one single yaml file with different profiles
+- Switch between two database configurations (e.g. h2 and postgres) using profiles
